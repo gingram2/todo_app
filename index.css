@@ -1,4 +1,28 @@
-h1{
+ul{
     color: blue;
     font-family: sans-serif
+}
+.time_estimate{
+    font-weight: bold;
+    color: #F44336;
+    background-color: yellow;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+}
+#To-do_Button{
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    outline: none;
+    border-style: none;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px #90A4AE;
+    display: block;
+    background-color: #03A9F4;
+    margin-top: 10px;
+}
+#To-do_Button:active{
+    box-shadow: 1px 1px 1px #90A4AE;
 }
